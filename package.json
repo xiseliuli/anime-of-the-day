@@ -9,7 +9,6 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
@@ -17,5 +16,16 @@
   ],
   "peerDependencies": {
     "koishi": "^4.15.7"
+  },
+  "koishi": {
+    "description": {
+      "en": "anime of the day",
+      "zh": "查询今日更新动画"
+    },
+    "service": {
+      "required": ["puppeteer"]
+    },
+    "locales": ["zh"],
+    "preview": true
   }
 }
