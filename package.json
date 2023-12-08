@@ -1,0 +1,21 @@
+{
+  "name": "@xiseliuli/koishi-plugin-anime-of-the-day",
+  "description": "查询今日更新的番剧，做了本地缓存，如果不存在数据，则从bgmapi获取数据",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.15.7"
+  }
+}
